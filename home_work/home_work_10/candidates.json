@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Adela Hendrics",
+    "picture": "https://picsum.photos/200",
+    "position": "Go разработчик",
+    "gender": "female",
+    "age": 40,
+    "skills": "go, python"
+  },
+    {
+    "id": 2,
+    "name": "Fernando Torres",
+    "picture": "https://picsum.photos/200",
+    "position": "Delphi developer",
+    "gender": "male",
+    "age": 36,
+    "skills": "delphi, pascal, fortran, basic, django"
+  },
+    {
+    "id": 3,
+    "name": "Midav Afonich",
+    "picture": "https://picsum.photos/200",
+    "position": "Team lead",
+    "gender": "male",
+    "age": 29,
+    "skills": "go, python, java script, C#"
+  }
+]
