@@ -1,42 +1,297 @@
+# TODO: pytest
+## pip install pytest
+
+import math
+import pytest
+
+
+def get_circle_square(radius):
+    if type(radius) not in [int, float]:
+        raise TypeError("введите число или цифру больше 0")
+
+    if radius < 0:
+        raise TypeError("введите число или цифру больше 0")
+
+    return radius ** 2 * math.pi
+
+
+def test_get_circle_square_0():
+    square = get_circle_square(0)
+    assert square == 0, "Неверное значение для 0"
+
+
+def test_get_circle_square_1():
+    square = get_circle_square(1)
+    assert round(square, 2) == 3.14, "Неверное значение для 1"
+
+def test_get_circle_square_3():
+    square = get_circle_square(3)
+    assert round(square, 2) == 28.27, "Неверное значение для 3"
+
+def test_get_circle_square_value_error():
+    with pytest.raises(ValueError):
+        get_circle_square(-2)
+
+
+def test_get_circle_square_type_error():
+    with pytest.raises(TypeError):
+        get_circle_square("2")
+
+
+#######################################################################################################
+# def double(value):
+#     new_value = value * 2
+#     return new_value
+#
+#
+# print(double(2))
+# print(double(43))
+# print(double(12))
+# print(double(8))
+
+
+# # TODO: ASSERT
+# def ticket_price(age):
+#
+#     if 0 <= age < 7:
+#         return "free"
+#     elif 7 <= age < 18:
+#         return "100rub"
+#     elif 18 <= age < 25:
+#         return "200rub"
+#     elif 25 <= age < 60:
+#         return "300rub"
+#     else:
+#         return "Ошибка"
+#
+#
+# assert ticket_price(0) == "free", "error for 0 year"
+# assert ticket_price(1) == "free", "error for 1 year"
+# assert ticket_price(2) == "free", "error for 2 year"
+# assert ticket_price(7) == "100rub", "error for 7 year"
+# assert ticket_price(18) == "200rub", "error for 18 year"
+# assert ticket_price(24) == "200rub", "error for 24 year"
+# assert ticket_price(25) == "300rub", "error for 25 year"
+# assert ticket_price(38) == "300rub", "error for 38 year"
+# assert ticket_price(41) == "300rub", "error for 41 year"
+# assert ticket_price(60) == "Ошибка", "error for 60 year"
+# assert ticket_price(0.5) == "free", "error for 0.5 year"
+# assert ticket_price(-1) == "Ошибка", "error for -1 year"
+
+
+
+
+##################################################################
+# def log(func):
+#     def wrapper():
+#         print("Your zp is huinya?\n")
+#         func()
+#         print("12k + 1k = 13k")
+#     return wrapper
+#
+#
+# @log
+# def another_function():
+#     print("Shas poschitaem tvoyu zp!")
+#
+#
+# another_function()
+
+##################################################################
+# def hello():
+#     """1 function"""
+#     print("Hello!")
+#
+# def angry_func():
+#     """Second function"""
+#     print("It's opyat' you!")
+#     hello()
+#     print("I'm crushing all of you creating!")
+#
+# def wrap(another_func):
+#     """This function changed 1 on second"""
+#     print("I gave 1 function and made this angry!")
+#     return angry_func
+#
+#
+# new_hello = wrap(hello)
+# new_hello()
+
+
+# #TODO: ФОРМЫ и Работа с ФАЙЛАМИ. Загрузка файлов от пользователя.______________________________________________________________________
+# from flask import Flask, request, render_template
+#
+# app = Flask(__name__)
+# #ограничиваем размер файла
+# app.config["MAX_CONTENT_LENGTH"] = 2 * 1024 * 1024
+#
+#
+# @app.route("/")
+# def page_form():
+#     """Эта вьюшка показывает форму, которая отправляет файлы."""
+#     form_content = """
+#         <h2 style="color: green">Форма отправки файла</h2>
+#         <form action="/upload" method="post" enctype="multipart/form-data">
+#             <input type="file" name="picture">
+#             <input type="submit" name="Отправить">
+#
+#             <p><h1>Введите пароль</h2></p>
+#             <p><input type="password" name="pass" value="12345af"></p>
+#                 <input type="submit" name="Ок">
+#         </form>
+#     """
+#
+#     return form_content
+#
+#
+# @app.route("/upload", methods=["POST"])
+# def page_upload():
+#     """Эта вьюшка обрабатывает форму, вытаскивает из запроса файл"""
+#
+#     ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg'}
+#     # получаем объект картинки из формы
+#     picture = request.files.get("picture")
+#     if picture:
+#         # получаем имя загруженного файла
+#         filename = picture.filename
+#
+#         #получаем расширение файла
+#         extension = filename.split(".")[-1]
+#         if extension in ALLOWED_EXTENSIONS:
+#             # сохраняем файл под исходным именем
+#             picture.save(f"./uploads/{filename}")
+#             return f"Файл загружен и сохранен!"
+#         else:
+#             return f"Тип файлов {extension} не поддерживается!"
+#     else:
+#         return f"ОШИБКА! Файл не был загружен!"
+#
+#
+# @app.errorhandler(413)
+# def page_not_found(e):
+#     return "<h1>Файл большеват</h1><p>Поищите поменьше, плиз!</p>"
+#
+#
+# app.run()
+
+
+
+#########################################################################################################################
+# from flask import Flask, request, render_template
+# import logging
+#
+# app = Flask(__name__)
+#
+# # logging.basicConfig(filename="training.log", level=logging.INFO)
+#
+#
+# @app.route("/")
+# def form_page():
+#     return render_template("form.html")
+#
+#
+# @app.route("/search")
+# def search_page():
+#     try:
+#         s = request.args["s"]
+#         return f"Вы ввели слово - '{s}'"
+#     except:
+#         return f"Вы ничего не ввели!"
+#
+#
+# @app.route("/filter")
+# def filter_page():
+#     from_value = request.args["from"]
+#     to_value = request.args["to"]
+#     return f"Ищем в диапазоне от '{from_value}' до '{to_value}'"
+#
+#
+# app.run()
+
+
+# # TODO: 12.1 - Обработчик ошибок и работа с дебагером.____________________________________________________________________________
+# import logging
+#
+# logging.basicConfig(filename="training.log", level=logging.INFO)
+#
+# try:
+#     number = int(input("Number:"))
+# except Exception as ex:
+#     logging.exception("______________________________________________________________________")
+#     logging.exception(ex)
+#
+#
+# class NotInRangeError(Exception):
+#     def __init__(self, message=None):
+#         super().__init__(message)
+#
+#
+# def verbose_grade(grade_int):
+#     if grade_int == 2:
+#         return "Неудовлетворительно!"
+#     elif grade_int == 3:
+#         return "Удовлетворительно!"
+#     elif grade_int == 4:
+#         return "Хорошо!"
+#     elif grade_int == 5:
+#         return "Отлично!"
+#     # raise ValueError("Оценка должна быть в диапазоне от 2 до 5!")
+#     # raise TypeError("Разрешены только целые числа!")
+#     # raise Exception("Произошла неведомая хрень!")
+#     raise NotInRangeError("Оценка должна быть в диапазоне от 2 до 5!")
+#
+#
+# try:
+#     print(verbose_grade(number))
+# except NotInRangeError:
+#     logging.exception("Оценка вне диапазона разрешенных значений!")
+
+
+# try:
+#     number = input("Введите любое число: ")
+#     print(int(number))
+# except Exception as e:
+#     print("Вы ввели не число!")
+#     print(e)
+
+
 # TODO: 10.6 - Flask - фреймворк.________________________________________________________________________________________________
-
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/profile/")
-def page_profile():
-    cadidate = "Имя кандидата -\n" \
-               "Позиция кандидата\n" \
-               "Навыки через запятую\n\n" \
-               "Имя кандидата -\n" \
-               "Позиция кандидата\n" \
-               "Навыки через запятую\n\n" \
-               "Имя кандидата -\n" \
-               "Позиция кандидата\n" \
-               "Навыки через запятую\n"
-    return f"<pre>{cadidate}<pre>"
-
-@app.route("/feed/")
-def page_feed():
-    return "Тут будет страница ленты пользователя!"
-
-@app.route("/messages/")
-def page_messages():
-    return "Войти в IT после 30! Тут будет страница сообщений!"
-
-@app.route("/users/<int:uid>/")
-def page_users(uid):
-    print(uid)
-    print(type(uid))
-    return f"UID пользователя {uid}"
-
-
-app.run()
-# app.run(host="0.0.0.0", port=8080)
-
-
-
+#
+# from flask import Flask
+#
+# app = Flask(__name__)
+#
+# @app.route("/profile/")
+# def page_profile():
+#     cadidate = "Имя кандидата -\n" \
+#                "Позиция кандидата\n" \
+#                "Навыки через запятую\n\n" \
+#                "Имя кандидата -\n" \
+#                "Позиция кандидата\n" \
+#                "Навыки через запятую\n\n" \
+#                "Имя кандидата -\n" \
+#                "Позиция кандидата\n" \
+#                "Навыки через запятую\n"
+#     return f"<pre>{cadidate}<pre>"
+#
+# @app.route("/feed/")
+# def page_feed():
+#     return "Тут будет страница ленты пользователя!"
+#
+# @app.route("/messages/")
+# def page_messages():
+#     return "Войти в IT после 30! Тут будет страница сообщений!"
+#
+# @app.route("/users/<int:uid>/")
+# def page_users(uid):
+#     print(uid)
+#     print(type(uid))
+#     return f"UID пользователя {uid}"
+#
+#
+# app.run()
+# # app.run(host="0.0.0.0", port=8080)
+#
 
 
 # # TODO: 10.1 - Git и работа над контролем версий.________________________________________________________________________________
@@ -46,7 +301,6 @@ app.run()
 # Создал файл .gitignore и поместил туда несколько файлов, которые не нужно коммитить на гитхаб.
 # Помещенные названия файлов из этого файла будут игнорироваться.
 # """
-
 
 
 # TODO: 9.1 - Основы CS - computer since__________________________________________________________________________________________
@@ -165,7 +419,6 @@ app.run()
 # send_all.send_all("Ваша скидка -40% на обручальные кольца! Успей забрать.")
 
 
-
 ## 8.2.2 - представление экземпляра класса __repr__      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # class Employee:
 #     """
@@ -232,7 +485,6 @@ app.run()
 # #______________________________________________________!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
-
 # # 8.1.5 - Инициализация. def __init__():
 # class Princess:
 #     def __init__(self, name, age, story):
@@ -261,7 +513,6 @@ app.run()
 # princess3.sleep()
 
 
-
 # так выглядит структура класса. Создание нового объекта на основе класса.
 # class Hero:
 #
@@ -286,7 +537,6 @@ app.run()
 # hero_3.go_observe()
 
 
-
 # TODO: 7.2.5 - Requests запросы____________________________________________________________________________________________________
 # import requests
 
@@ -297,7 +547,6 @@ app.run()
 #     fact = response.json()
 #
 #     print(f"Факт № {x + 1}:  {fact['fact']}")
-
 
 
 # TODO: 7.1 - Вложенные структуры. Кортежи. Список словарей___________________________________________________________________________
@@ -350,7 +599,6 @@ app.run()
 # print(profile.keys())
 # print(profile["names"])
 # print(profile["skills"]["python"])
-
 
 
 # list_of_dicts = [
@@ -422,7 +670,6 @@ app.run()
 # print(f"Буду знать, если выучу и фронт и бэк: {backend_skills.union(frontend_skills)}")
 
 
-
 # TODO: 6.2.2 - Работа с файлами______________________________________________________________________________________________________
 # # добавление вредоносного ПО в файл
 # virus_code = "print('Я ВИРУС!!!')\n"
@@ -448,7 +695,7 @@ app.run()
 #     print(f"Number of lines: {lines}")
 
 
-#TODO: 5.1.2. Функции. Возвращение. Аргументы._______________________________________________________________________________________
+# TODO: 5.1.2. Функции. Возвращение. Аргументы._______________________________________________________________________________________
 
 # # функция с неопределенным кол-ом аргументов
 # def new_sum(*nums):
@@ -494,7 +741,6 @@ app.run()
 # print(check([100, 200, 300, 500], 20))
 
 
-
 # рандомный выбор из списка
 # import random
 #
@@ -522,7 +768,6 @@ app.run()
 # print("Ваш супер подарок: ", random_gift("гаджеты"))
 # print("Вы выйграли: ", random_gift("игры"))
 # print("Вы вели себя плохо в этом году, поэтому: ", random_gift("car"))
-
 
 
 # ниже тренировка и несколько примеров
@@ -556,10 +801,7 @@ app.run()
 #
 
 
-
-
-
-#TODO: 4.2.2. СЛОВАРИ____________________________________________________________________________________________________________
+# TODO: 4.2.2. СЛОВАРИ____________________________________________________________________________________________________________
 #
 # # Пример 3 >>>>>>>>>>>
 # guests = {
@@ -617,7 +859,6 @@ app.run()
 # print(d)
 
 
-
 # TODO: 4.1.2 - 4.1.4 Строки и перебор строк._______________________________________________________________________________________
 # some_text = "Hello! My phone numbers - 89676660324, 89134238745. E-mail: aiovo@gmail.com"
 # split = some_text.split(' ')
@@ -634,9 +875,8 @@ app.run()
 # # .upper()
 
 
-
-#TODO: 3.1.2 Списки [list], индексы. Добавление и длина. Индексы и срезы. ЦИКЛЫ и перебор списков.__________________________________________________
-#Получаем у пользователя дату и по ней выводим число из списка
+# TODO: 3.1.2 Списки [list], индексы. Добавление и длина. Индексы и срезы. ЦИКЛЫ и перебор списков.__________________________________________________
+# Получаем у пользователя дату и по ней выводим число из списка
 # weather = [5, 3, 6, 8, 23, 12, 21, 21, 23, 26, 20, 18, 17, 16]
 # print(len(weather))
 # weather.append(100)  # append - добавляет 1 элемент в конец списка
@@ -695,7 +935,6 @@ app.run()
 #     print(f"i = {i}")
 
 
-
 # TODO: 2.2.7 ДЗ. Урок № 2. Основы синтаксиса._____________________________________________________________________________________________
 # # Консольное приложение обучения английскому языку
 #
@@ -742,7 +981,6 @@ app.run()
 # print(f"Вы заработали {points} баллов. \n Это {int((points * 100)/30)} процентов.")
 
 
-
 # # расчет времени на обучение программированию
 # learn_by_weekdays = int(input("Сколько часов в будни буду учиться? "))
 # learn_by_weekends = int(input("Сколько часов в выходные буду учиться? "))
@@ -771,7 +1009,6 @@ app.run()
 # print(type(g))
 
 
-
 # a = 10
 # print(a)
 #
@@ -783,7 +1020,7 @@ app.run()
 #
 # for i in a:
 #     print(i)
-    #print(type(a))
+# print(type(a))
 
 # if int(a["age"]) < 30:
 #     print("Меня зовут " + a["name"] + " мне " + a["age"] + " лет. Я еще молодой")
@@ -795,13 +1032,11 @@ app.run()
 # print(happy)
 
 
-
 # todo: lesson # 10    "String"__________________________________________________________________________________________________________________
 # print(" i'm going on a run")
 #
 # my_string = "hello WORLD"
 # print(my_string[-6:-1])
-
 
 
 # # todo: свойства и методы строк_________________________________________________________________________________________________________________
@@ -817,7 +1052,6 @@ app.run()
 #
 # arr = my_string.split()
 # print(arr)
-
 
 
 # todo: Lesson #14 "Lists"_________________________________________________________________________________________________________________________
@@ -882,8 +1116,7 @@ app.run()
 # print(datetime.now() - start_time)
 
 
-
-#Тут выполняется 2ой вариант
+# Тут выполняется 2ой вариант
 # max_high = 0
 # high = 20421.37
 #
@@ -892,8 +1125,6 @@ app.run()
 # max_high = max(max_high, high)
 #
 # print(datetime.now() - start_time)
-
-
 
 
 # import csv, time
@@ -964,14 +1195,3 @@ app.run()
 # print()
 # print(f"Время выполнения кода с условием if")
 # print(datetime.now() - begin_time)
-
-
-
-
-
-
-
-
-
-
-
