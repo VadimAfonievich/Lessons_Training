@@ -22,10 +22,6 @@ def get_posts_by_user(user_name):
             posts_by_user.append(post)
     return posts_by_user
 
-    #         return print(post)
-    # if user_name not in posts:
-    #     raise ValueError("Такого пользователя нет!")
-
 
 def get_comments_by_id(post_id):
     comments = get_comments_all()
@@ -55,11 +51,3 @@ def get_post_by_pk(pk):
     for post in posts:
         if post["pk"] == pk:
             return post
-
-
-# print(get_posts_by_user("leo"))
-# print(get_posts_by_user("hank"))
-#
-# print(f"Комментарии По id {1}: {get_comments_by_id(1)}")
-# print(f"Поису по ключевому слову: {search_for_posts('опять')}")
-# print(f"Пост по pk: {get_post_by_pk(2)}")
