@@ -128,3 +128,489 @@ Traceback (most recent call last):
   File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
     raise NotFound() from None
 werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 14:44:24,122 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 14:55:57,679 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 15:00:14,612 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 15:08:39,103 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 15:09:29,644 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 15:09:38,760 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 15:11:57,593 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 15:24:47,193 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 15:25:58,108 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 650, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2023-07-17 15:26:31,631 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 15:27:33,007 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 15:27:47,762 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 15:36:20,758 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 650, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2023-07-17 15:37:47,419 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 15:40:04,330 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 650, in match
+    raise MethodNotAllowed(valid_methods=list(e.have_match_for)) from None
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2023-07-17 16:37:43,744 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/course_work_2/app/main/views.py", line 18, in search_page
+    s = request.args["s"]
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 's'
+2023-07-17 16:37:58,429 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:39:20,052 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/course_work_2/app/main/views.py", line 27, in search_page
+    if s.lower() in post["content"].lower():
+AttributeError: 'NoneType' object has no attribute 'lower'
+2023-07-17 16:40:12,032 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/course_work_2/app/main/views.py", line 19, in search_page
+    s = request.form["s"]
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 's'
+2023-07-17 16:43:09,582 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:44:39,680 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:47:01,582 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:47:33,164 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:47:52,237 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:48:41,537 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:50:35,894 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:50:49,104 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/course_work_2/app/main/views.py", line 13, in main_page
+    return render_template("index.html", posts=posts, bookmark_count=bookmark_count)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/templating.py", line 130, in _render
+    rv = template.render(context)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/course_work_2/templates/index.html", line 30, in top-level template code
+    <form action="/search/{{ post.poster_name }}" class="search__form">
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/jinja2/environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'post' is undefined
+2023-07-17 16:50:53,405 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/course_work_2/app/main/views.py", line 13, in main_page
+    return render_template("index.html", posts=posts, bookmark_count=bookmark_count)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/templating.py", line 130, in _render
+    rv = template.render(context)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/course_work_2/templates/index.html", line 30, in top-level template code
+    <form action="/search/{{ post.poster_name }}" class="search__form">
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/jinja2/environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'post' is undefined
+2023-07-17 16:51:00,228 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/course_work_2/app/main/views.py", line 13, in main_page
+    return render_template("index.html", posts=posts, bookmark_count=bookmark_count)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/templating.py", line 130, in _render
+    rv = template.render(context)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/course_work_2/templates/index.html", line 30, in top-level template code
+    <form action="/search/{{ post.poster_name }}" class="search__form">
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/jinja2/environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'post' is undefined
+2023-07-17 16:52:05,408 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:53:05,930 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:54:15,076 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:56:15,954 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1788, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1770, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/ctx.py", line 351, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/werkzeug/routing/map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-07-17 16:57:01,847 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/course_work_2/app/main/views.py", line 27, in search_page
+    if s.lower() in post["content"].lower():
+AttributeError: 'NoneType' object has no attribute 'lower'
+2023-07-17 16:57:54,081 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: search_page() missing 1 required positional argument: 's'
+2023-07-17 16:58:13,121 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: search_page() missing 1 required positional argument: 's'
+2023-07-17 16:58:19,449 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/course_work_2/app/main/views.py", line 27, in search_page
+    if s.lower() in post["content"].lower():
+AttributeError: 'NoneType' object has no attribute 'lower'
+2023-07-17 17:06:42,988 [ERROR] Произошла ошибка. Введенная ссылка не найдена: 
+Traceback (most recent call last):
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/afonich/work/IT/Python_Projects/Lessons_Training/venv_delete/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: search_page() missing 1 required positional argument: 's'

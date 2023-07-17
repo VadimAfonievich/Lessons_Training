@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request
 from course_work_2.app import utils
 
 
@@ -11,6 +11,21 @@ def main_page():
     bookmark_count = len(posts)
 
     return render_template("index.html", posts=posts, bookmark_count=bookmark_count)
+
+
+@main_blueprint.route("/search", methods=["GET", "POST"])
+def search_page():
+    s = request.args.get("s")
+    if s:
+        posts = utils.get_posts_all()
+        results = []
+
+        for post in posts:
+            if s.lower() in post["content"].lower():
+                results.append(post)
+
+        return render_template("index.html", posts=results, s=s)
+    return "Вы ничего не ввели в поле поиска!"
 
 
 @main_blueprint.route("/posts/<int:post_id>")
