@@ -1,41 +1,41 @@
-# TODO: pytest
-## pip install pytest
-
-import math
-import pytest
 
 
-def get_circle_square(radius):
-    if type(radius) not in [int, float]:
-        raise TypeError("введите число или цифру больше 0")
 
-    if radius < 0:
-        raise TypeError("введите число или цифру больше 0")
-
-    return radius ** 2 * math.pi
-
-
-def test_get_circle_square_0():
-    square = get_circle_square(0)
-    assert square == 0, "Неверное значение для 0"
-
-
-def test_get_circle_square_1():
-    square = get_circle_square(1)
-    assert round(square, 2) == 3.14, "Неверное значение для 1"
-
-def test_get_circle_square_3():
-    square = get_circle_square(3)
-    assert round(square, 2) == 28.27, "Неверное значение для 3"
-
-def test_get_circle_square_value_error():
-    with pytest.raises(ValueError):
-        get_circle_square(-2)
-
-
-def test_get_circle_square_type_error():
-    with pytest.raises(TypeError):
-        get_circle_square("2")
+# import math
+# import pytest
+#
+#
+# def get_circle_square(radius):
+#     if type(radius) not in [int, float]:
+#         raise TypeError("введите число или цифру больше 0")
+#
+#     if radius < 0:
+#         raise TypeError("введите число или цифру больше 0")
+#
+#     return radius ** 2 * math.pi
+#
+#
+# def test_get_circle_square_0():
+#     square = get_circle_square(0)
+#     assert square == 0, "Неверное значение для 0"
+#
+#
+# def test_get_circle_square_1():
+#     square = get_circle_square(1)
+#     assert round(square, 2) == 3.14, "Неверное значение для 1"
+#
+# def test_get_circle_square_3():
+#     square = get_circle_square(3)
+#     assert round(square, 2) == 28.27, "Неверное значение для 3"
+#
+# def test_get_circle_square_value_error():
+#     with pytest.raises(ValueError):
+#         get_circle_square(-2)
+#
+#
+# def test_get_circle_square_type_error():
+#     with pytest.raises(TypeError):
+#         get_circle_square("2")
 
 
 #######################################################################################################
